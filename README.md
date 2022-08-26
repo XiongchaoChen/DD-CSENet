@@ -1,5 +1,4 @@
-# DualDomain-IRSENet
-Dual-domain Iterative residual sqeze-excitaton network for sparse-view reconstruction of MRI
+# DD-IRSENet: Dual-domain Iterative residual sqeze-excitaton network for sparse-view reconstruction of MRI
 
 Xiongchao Chen, Zhigang Peng
 
