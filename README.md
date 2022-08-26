@@ -3,7 +3,7 @@ Dual-domain Iterative residual sqeze-excitaton network for sparse-view reconstru
 
 Xiongchao Chen, Zhigang Peng
 
-|[image](IMAGE/IRSENet.png)
+![image](IMAGE/IRSENet.png)
 
 This repository contains the PyTorch implementation of Dual-domain Iterative residual sqeze-excitaton network for sparse-view reconstruction of MRI
 
