@@ -115,7 +115,7 @@ The acquisition of the deidentified [fastMRI Dataset][1] was conducted retrospec
 ### Contact 
 If you have any question, please file an issue or directly contact the authors:
 ```
-Xiongchao Chen: xiongchao.chen@yale.edu, cxiongchao9587@gmail.com
+Xiongchao Chen: xiongchao.chen@yale.edu
 ```
 ```
 Zhigang Peng: zhigang.peng@Siemens-Healthineers.com
