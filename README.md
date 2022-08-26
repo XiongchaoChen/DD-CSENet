@@ -109,7 +109,7 @@ where \
 `--experiment_name`: experiment name for the code, and save all the testing results in this under this "experiment_name" folder. 
 
 ### Data Avaliability
-The acquisition of the deidentified fastMRI Dataset was conducted retrospectively using human subject data, made available in open access by Center for Advanced Imaging Innovation and Research (CAI<sup>2</sup>R), in the Department of Radiology at NYU School of Medicine and NYU Langone Health. Curation of these data are part of an IRB approved study.
+The acquisition of the deidentified [fastMRI Dataset][1] was conducted retrospectively using human subject data, made available in open access by Center for Advanced Imaging Innovation and Research (CAI<sup>2</sup>R), in the Department of Radiology at NYU School of Medicine and NYU Langone Health. Curation of these data are part of an IRB approved study.
 
 
 ### Contact 
@@ -120,7 +120,7 @@ Xiongchao Chen: xiongchao.chen@yale.edu, cxiongchao9587@gmail.com
 
 
 
-
+[1]: http://www.google.com
 
 
 
