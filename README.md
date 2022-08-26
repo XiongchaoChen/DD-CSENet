@@ -78,7 +78,9 @@ Sample training/testing scripts are provided at the root folder as `train.sh` an
 python train.py --experiment_name 'train_IRSENet_1' --data_root '../../Data/Data_ArrangeRecon/' --model_type 'model_cnn' --net_G 'DuRDN' --norm 'BN' --n_filters 16 --growth_rate 16 --n_denselayer 3 --n_channels 32 --lr_I1 5e-4 --lr_K1 5e-4 --lr_I2 5e-4 --lr_K2 5e-4 --n_epochs 600 --batch_size 2 --eval_epochs 5 --snapshot_epochs 5 --num_workers 0 --gpu_ids 0
 ...
 
-
+```bash
+python train.py --experiment_name 'train_register' --model_type 'model_reg' --dataset 'CardiacSPECT_Reg' --data_root '../../Data/Dataset_filename/' --net_G 'DuRegister_DuSE' --net_filter 32 --lr 5e-5 --step_size 1 --gamma 0.99 --n_epochs 400 --batch_size 4 --n_patch_train 1 --patch_size_train 80 80 40 --n_patch_test 1 --patch_size_test 80 80 40 --n_patch_valid 1 --patch_size_valid 80 80 40 --eval_epochs 5 --snapshot_epochs 5 --gpu_ids 0
+```
 
 
 
