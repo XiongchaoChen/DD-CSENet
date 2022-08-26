@@ -4,12 +4,12 @@ Xiongchao Chen, Zhigang Peng
 
 ![image](IMAGE/IRSENet.png)
 
-This repository contains the PyTorch implementation of Dual-domain Iterative residual sqeze-excitaton network for sparse-view reconstruction of MRI
+This repository contains the PyTorch implementation of Dual-domain Iterative residual sqeze-excitaton network for sparse-view reconstruction of MRI.
 
 ### Citation
 If you use this code for your research or project, please cite: \
-\
-"..."
+<!-- \
+"Xiongchao Chen, Bo Zhou, Huidong Xie, Xueqi Guo, Jiazhen Zhang, Albert J. Sinusas, John A. Onofrey, and Chi Liu. Dual-Branch Squeeze-Fusion-Excitation Module for Cross-Modality Registration of Cardiac SPECT and CT. In the 25th International Conference on Medical Image Computing and Computer Assisted Intervention, Singapore, Sept 18-22, 2022." -->
 
  ### Environment and Dependencies
  Requirements:
