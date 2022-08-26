@@ -78,6 +78,21 @@ Sample training/testing scripts are provided at the root folder as `train.sh` an
 python train.py --experiment_name 'train_IRSENet_1' --data_root '../../Data/Data_ArrangeRecon/' --model_type 'model_cnn' --net_G 'DuRDN' --norm 'BN' --n_filters 16 --growth_rate 16 --n_denselayer 3 --n_channels 32 --lr_I1 5e-4 --lr_K1 5e-4 --lr_I2 5e-4 --lr_K2 5e-4 --n_epochs 600 --batch_size 2 --eval_epochs 5 --snapshot_epochs 5 --num_workers 0 --gpu_ids 0
 ```
 
+where \
+`--experiment_name` experiment name for the code, and save all the training results in this under this "experiment_name" folder. \
+`--data_root`: path of the dataset. \
+`--model_type`: model type used (default convolutioanl neural networks -- "model_cnn"). \
+`--net_G`: neural network model used (default: 'DuRegister_DuSE'). \ 
+`--norm`: normalization (default: 'BN' for Batch Normalization). \
+`--n_filters`: number of filters in the dense connected layers (default: 16). \
+`--growth_rate`: number of expanded channels in the dense connected layers (default: 16). \
+`--n_denselayer`: number of dense layers. \
+`--n_channels`: number of input channels. \
+`--lr_I1`: learning rate of the Image-Net in the 1<sup>st</sup> iteration. \
+`--lr_K1`: learning rate of the Kspace-Net in the 1st iteration. \
+`--lr_I2`: learning rate of the Image-Net in the 2nd iteration. \
+`--lr_K2`: learning rate of the Kspace-Net in the 2nd iteration. \
+
 
 - Test the model
 ```bash
