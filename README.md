@@ -64,9 +64,11 @@ Our code has been tested with Python 3.8.13, PyTorch 1.11.0, CUDA: 10.0.130 on U
  where \
 `kspace`: full-view kspace data with a size of Num x W x H. \
 `kspace_sv`: downsampled sparse-view kspace data with a size of Num x W x H. \
-`recon_origin`: iverse fourier transfrom of 'kspace'
-`recon_origin_sv`: iverse fourier transfrom of 'kspace_sv'
-
+`recon_origin`: iverse fourier transfrom of 'kspace' with a size of Num x W x H. \
+`recon_origin_sv`: iverse fourier transfrom of 'kspace_sv' with a size of Num x W x H. \
+`mask`: downsampling mask of the sparse-view kspace data with a size of Num x W x H. \
+`recon_rss`: root sum-of-square (RSS) reconstruction of 'recon_origin' with a size of W x H. \
+`recon_rss_sv`: root sum-of-square (RSS) reconstruction of 'recon_origin_sv' with a size of W x H. \
 
 
 
