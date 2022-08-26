@@ -75,8 +75,8 @@ Sample training/testing scripts are provided at the root folder as `train.sh` an
 
 - Train the model 
 ```bash
-python train.py --experiment_name 'train_IRSENet_1' 
-'''
+python train.py --experiment_name 'train_IRSENet_1' --data_root '../../Data/Data_ArrangeRecon/' --model_type 'model_cnn' --net_G 'DuRDN' --norm 'BN' --n_filters 16 --growth_rate 16 --n_denselayer 3 --n_channels 32 --lr_I1 5e-4 --lr_K1 5e-4 --lr_I2 5e-4 --lr_K2 5e-4 --n_epochs 600 --batch_size 2 --eval_epochs 5 --snapshot_epochs 5 --num_workers 0 --gpu_ids 0
+```
 
 
 
