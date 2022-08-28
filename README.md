@@ -1,4 +1,4 @@
-# DD-IRSENet: Dual-Domain Iterative Residual Squeeze-Excitaton Network for Sparse-View Reconstruction of MRI
+# DD-CSENet: Dual-Domain Cross-Iteration Squeeze-Excitaton Network for Sparse-View Reconstruction of MRI
 
 Xiongchao Chen, Zhigang Peng
 
