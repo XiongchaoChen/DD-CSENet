@@ -7,7 +7,7 @@ Xiongchao Chen
 This repository contains the PyTorch implementation of Dual-domain Iterative residual sqeze-excitaton network for sparse-view reconstruction of MRI.
 
 ### Citation
-If you use this code for your research or project, please cite: \
+If you use this code for your research or project, please cite: 
    
   @article{chen2022dual,
   title={Dual-Domain Cross-Iteration Squeeze-Excitation Network for Sparse Reconstruction of Brain MRI},
