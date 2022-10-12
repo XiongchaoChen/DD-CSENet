@@ -1,6 +1,6 @@
 # DD-CSENet: Dual-Domain Cross-Iteration Squeeze-Excitaton Network for Sparse-View Reconstruction of MRI
 
-Xiongchao Chen, Zhigang Peng
+Xiongchao Chen
 
 ![image](IMAGE/IRSENet.png)
 
@@ -8,8 +8,12 @@ This repository contains the PyTorch implementation of Dual-domain Iterative res
 
 ### Citation
 If you use this code for your research or project, please cite: \
-<!-- \
-"Xiongchao Chen, Bo Zhou, Huidong Xie, Xueqi Guo, Jiazhen Zhang, Albert J. Sinusas, John A. Onofrey, and Chi Liu. Dual-Branch Squeeze-Fusion-Excitation Module for Cross-Modality Registration of Cardiac SPECT and CT. In the 25th International Conference on Medical Image Computing and Computer Assisted Intervention, Singapore, Sept 18-22, 2022." -->
+   @article{chen2022dual,
+     title={Dual-Domain Cross-Iteration Squeeze-Excitation Network for Sparse Reconstruction of Brain MRI},
+     author={Chen, Xiongchao and Shinagawa, Yoshihisa and Peng, Zhigang and Valadez, Gerardo Hermosillo},
+     journal={arXiv preprint arXiv:2210.02523},
+     year={2022}
+   }
 
  ### Environment and Dependencies
  Requirements:
