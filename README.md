@@ -1,6 +1,6 @@
 # DD-CSENet: Dual-Domain Cross-Iteration Squeeze-Excitaton Network for Sparse-View Reconstruction of MRI
 
-Xiongchao Chen
+Xiongchao Chen, Yale University
 
 ![image](IMAGE/IRSENet.png)
 
@@ -108,7 +108,6 @@ where \
 python test.py --resume './outputs/train_IRSENet_1/checkpoints/model_399.pt' --experiment_name 'test_IRSENet_1_399' --data_root '../../Data/Data_ArrangeRecon/' --model_type 'model_cnn' --net_G 'DuRDN' --norm 'BN' --n_filters 16 --growth_rate 16 --n_denselayer 3 --n_channels 32 --eval_epochs 5 --snapshot_epochs 5 --num_workers 0 --gpu_ids 0
 ```
 
-where \
 where \
 `--resume`: path of the model to be tested. \
 `--resume_epoch`: training epoch of the model to be tested. \
