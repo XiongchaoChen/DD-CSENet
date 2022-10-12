@@ -122,9 +122,6 @@ If you have any question, please file an issue or directly contact the authors:
 ```
 Xiongchao Chen: xiongchao.chen@yale.edu
 ```
-```
-Zhigang Peng: zhigang.peng@Siemens-Healthineers.com
-```
 
 
 <!-- Reference -->
