@@ -8,13 +8,14 @@ This repository contains the PyTorch implementation of Dual-domain Iterative res
 
 ### Citation
 If you use this code for your research or project, please cite: 
-   
-   @article{chen2022dual,
-  title={Dual-Domain Cross-Iteration Squeeze-Excitation Network for Sparse Reconstruction of Brain MRI},
-  author={Chen, Xiongchao and Shinagawa, Yoshihisa and Peng, Zhigang and Valadez, Gerardo Hermosillo},
-  journal={arXiv preprint arXiv:2210.02523},
-  year={2022}
-}
+
+      @article{chen2022dual,
+        title={Dual-Domain Cross-Iteration Squeeze-Excitation Network for Sparse Reconstruction of Brain MRI},
+        author={Chen, Xiongchao and Shinagawa, Yoshihisa and Peng, Zhigang and Valadez, Gerardo Hermosillo},
+        journal={arXiv preprint arXiv:2210.02523},
+        year={2022}
+      }
+
 
  ### Environment and Dependencies
  Requirements:
